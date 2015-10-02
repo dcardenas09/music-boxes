@@ -1,0 +1,91 @@
+body{
+    background-color:black;
+}
+
+#instrument{
+    width:80%;
+    margin: auto;
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-color:rgba(220,220,220, 1);
+    height:250px;
+}
+
+.key{
+    width:14%;
+    margin:0.14%;
+    height:100%;
+    float:left;
+    border:3px solid white;
+    box-sizing:border-box;
+}
+
+#c{
+    background-color: #FF0000;
+    border-color: #630D0D;
+}
+
+#c:hover{
+    background-color: #E02E2E;
+    border-color: #630D0D;
+}
+
+#d{
+    background-color: #FF4900;
+    border-color: #94360B;
+}
+
+#d:hover{
+    background-color:#FF8858;
+    border-color:#94360B;
+}
+
+#e{
+    background-color: #FFF400;
+    border-color: #7D7805;
+}
+
+#e:hover{
+    background-color:#FFF969;
+    border-color:#7D7805;
+}
+
+#f{
+    background-color: #00FF34;
+    border-color: #296F37;      
+}
+
+#f:hover{
+    background-color:#5DDC77;
+    border-color:#296F37;
+}
+
+#g{
+    background-color: #0069FF;
+    border-color: #163767;
+}
+
+#g:hover{
+    background-color:#598BD4;
+    border-color:#163767;
+}
+
+#a{
+    background-color: #5300FF;
+    border-color: #6440AD;
+}
+
+#a:hover{
+    background-color:#9173CE;
+    border-color:#6440AD;
+}
+
+#b{
+    background-color: #FF0856;
+    border-color: #CE4970;
+}
+
+#b:hover{
+    background-color:#DA3F70;
+    border-color:#CE4970;
+}
