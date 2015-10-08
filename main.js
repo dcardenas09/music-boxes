@@ -6,38 +6,55 @@ $(document).ready(function(){
     var gnote = document.getElementById("g-note");
     var anote = document.getElementById("a-note");
     var bnote = document.getElementById("b-note");
-    $("#c").on("click mouseover", function(){
+    $("#c").on("click mouseover keypress", function(){
         cnote.currentTime =0;
         cnote.play();
     });
-    
-    $("#d").on("click mouseover", function(){
+    p
+    $("#d").on("click mouseover keypress", function(){
         dnote.currentTime =0;
         dnote.play();
     });
     
-    $("#e").on("click mouseover", function(){
+    $("#e").on("click mouseover keypress", function(){
         enote.currentTime =0;
         enote.play();
     });
     
-    $("#f").on("click mouseover", function(){
+    $("#f").on("click mouseover keypress", function(){
         fnote.currentTime =0;
         fnote.play();
     });
     
-     $("#g").on("click mouseover", function(){
+     $("#g").on("click mouseover keypress", function(){
         gnote.currentTime =0;
         gnote.play();
     });
     
-    $("#a").on("click mouseover", function(){
+    $("#a").on("click mouseover keypress", function(){
         anote.currentTime =0;
         anote.play();
     });
     
-    $("#b").on("click mouseover", function(){
+    $("#b").on("click mouseover keypress", function(){
         bnote.currentTime =0;
         bnote.play();
+    });
+    
+     $(document).keypress(function(c) {
+        if ( c.keyCode === 119 ) // w
+            playCnote();
+        if ( d.keyCode === 120 ) // e
+            playDnote();
+        if ( e.keyCode === 121 ) // r
+            playEnote();
+        if ( f.keyCode === 122 ) // t
+            playFnote();
+        if ( g.keyCode === 123 ) // y
+            playGnote();
+        if ( a.keyCode === 124 ) // u
+            playAnote();
+        if ( b.keyCode === 125 ) // i
+            playBnote();
     });
 });
