@@ -6,37 +6,37 @@ $(document).ready(function(){
     var gnote = document.getElementById("g-note");
     var anote = document.getElementById("a-note");
     var bnote = document.getElementById("b-note");
-    $("#c").on("click mouseover keypress", function(){
+    $("#c").on("click mouseover", function(){
         cnote.currentTime =0;
         cnote.play();
     });
     p
-    $("#d").on("click mouseover keypress", function(){
+    $("#d").on("click mouseover", function(){
         dnote.currentTime =0;
         dnote.play();
     });
     
-    $("#e").on("click mouseover keypress", function(){
+    $("#e").on("click mouseover", function(){
         enote.currentTime =0;
         enote.play();
     });
     
-    $("#f").on("click mouseover keypress", function(){
+    $("#f").on("click mouseover", function(){
         fnote.currentTime =0;
         fnote.play();
     });
     
-     $("#g").on("click mouseover keypress", function(){
+     $("#g").on("click mouseover", function(){
         gnote.currentTime =0;
         gnote.play();
     });
     
-    $("#a").on("click mouseover keypress", function(){
+    $("#a").on("click mouseover", function(){
         anote.currentTime =0;
         anote.play();
     });
     
-    $("#b").on("click mouseover keypress", function(){
+    $("#b").on("click mouseover", function(){
         bnote.currentTime =0;
         bnote.play();
     });
